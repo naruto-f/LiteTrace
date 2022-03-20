@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LiteTrace"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/LiteTrace/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/LiteTrace/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/LiteTrace/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/LiteTrace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/LiteTrace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/LiteTrace/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/LiteTrace/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/LiteTrace/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/LiteTrace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/LiteTrace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/LiteTrace/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/LiteTrace/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/LiteTrace/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/LiteTrace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/LiteTrace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LiteTrace">
+				<Option output="/tmp/LiteTrace/cmake-build-debug/LiteTrace" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/LiteTrace/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/LiteTrace/cmake-build-debug/Makefile&quot;  VERBOSE=1 LiteTrace"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/LiteTrace/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/LiteTrace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/LiteTrace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LiteTrace/fast">
+				<Option output="/tmp/LiteTrace/cmake-build-debug/LiteTrace" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/LiteTrace/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/tmp/LiteTrace/cmake-build-debug/Makefile&quot;  VERBOSE=1 LiteTrace/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/tmp/LiteTrace/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/tmp/LiteTrace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/tmp/LiteTrace/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/LiteTrace/LiteTrace.cpp">
+			<Option target="LiteTrace"/>
+		</Unit>
+		<Unit filename="/tmp/LiteTrace/LiteTrace.h">
+			<Option target="LiteTrace"/>
+		</Unit>
+		<Unit filename="/tmp/LiteTrace/NewSuitableClass.cpp">
+			<Option target="LiteTrace"/>
+		</Unit>
+		<Unit filename="/tmp/LiteTrace/NewSuitableClass.h">
+			<Option target="LiteTrace"/>
+		</Unit>
+		<Unit filename="/tmp/LiteTrace/TraceClear.cpp">
+			<Option target="LiteTrace"/>
+		</Unit>
+		<Unit filename="/tmp/LiteTrace/TraceClear.h">
+			<Option target="LiteTrace"/>
+		</Unit>
+		<Unit filename="/tmp/LiteTrace/TraceList.cpp">
+			<Option target="LiteTrace"/>
+		</Unit>
+		<Unit filename="/tmp/LiteTrace/TraceList.h">
+			<Option target="LiteTrace"/>
+		</Unit>
+		<Unit filename="/tmp/LiteTrace/TraceShow.cpp">
+			<Option target="LiteTrace"/>
+		</Unit>
+		<Unit filename="/tmp/LiteTrace/TraceShow.h">
+			<Option target="LiteTrace"/>
+		</Unit>
+		<Unit filename="/tmp/LiteTrace/TraceStart.cpp">
+			<Option target="LiteTrace"/>
+		</Unit>
+		<Unit filename="/tmp/LiteTrace/TraceStart.h">
+			<Option target="LiteTrace"/>
+		</Unit>
+		<Unit filename="/tmp/LiteTrace/TraceStop.cpp">
+			<Option target="LiteTrace"/>
+		</Unit>
+		<Unit filename="/tmp/LiteTrace/TraceStop.h">
+			<Option target="LiteTrace"/>
+		</Unit>
+		<Unit filename="/tmp/LiteTrace/main.cpp">
+			<Option target="LiteTrace"/>
+		</Unit>
+		<Unit filename="/tmp/LiteTrace/utils.cpp">
+			<Option target="LiteTrace"/>
+		</Unit>
+		<Unit filename="/tmp/LiteTrace/utils.h">
+			<Option target="LiteTrace"/>
+		</Unit>
+		<Unit filename="/tmp/LiteTrace/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
